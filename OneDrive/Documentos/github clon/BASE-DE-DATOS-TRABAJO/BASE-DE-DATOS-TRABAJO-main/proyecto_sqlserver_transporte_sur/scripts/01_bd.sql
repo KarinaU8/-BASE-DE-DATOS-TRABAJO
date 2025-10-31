@@ -28,6 +28,7 @@ CREATE TABLE Tecnicos (
     correo NVARCHAR(100)
 );
 
+
 CREATE TABLE Mantenimientos (
     codigo_mantenimiento INT PRIMARY KEY,
     codigo_vehiculo INT NOT NULL,
