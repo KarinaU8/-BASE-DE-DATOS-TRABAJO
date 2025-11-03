@@ -8,7 +8,6 @@ CREATE TABLE Clientes (
     correo NVARCHAR(100)
 );
 
-
 CREATE TABLE Vehiculos (
     codigo_vehiculo INT PRIMARY KEY,
     codigo_cliente INT NOT NULL,
@@ -28,7 +27,6 @@ CREATE TABLE Tecnicos (
     telefono NVARCHAR(20),
     correo NVARCHAR(100)
 );
-
 
 CREATE TABLE Mantenimientos (
     codigo_mantenimiento INT PRIMARY KEY,
