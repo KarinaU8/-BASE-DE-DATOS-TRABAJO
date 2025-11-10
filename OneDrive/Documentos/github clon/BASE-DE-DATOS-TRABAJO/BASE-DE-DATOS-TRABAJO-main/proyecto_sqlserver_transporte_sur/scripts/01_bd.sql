@@ -1,3 +1,4 @@
+
 CREATE TABLE Clientes (
     codigo_cliente INT PRIMARY KEY,
     nombres NVARCHAR(100) NOT NULL,
@@ -39,6 +40,3 @@ CREATE TABLE Mantenimientos (
     FOREIGN KEY (codigo_vehiculo) REFERENCES Vehiculos(codigo_vehiculo),
     FOREIGN KEY (codigo_tecnico) REFERENCES Tecnicos(codigo_tecnico)
 );
-
-
-
