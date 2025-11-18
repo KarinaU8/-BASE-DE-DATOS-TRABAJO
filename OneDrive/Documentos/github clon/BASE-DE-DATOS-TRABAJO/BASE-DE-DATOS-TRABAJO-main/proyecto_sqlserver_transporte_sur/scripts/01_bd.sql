@@ -40,3 +40,4 @@ CREATE TABLE Mantenimientos (
     FOREIGN KEY (codigo_vehiculo) REFERENCES Vehiculos(codigo_vehiculo),
     FOREIGN KEY (codigo_tecnico) REFERENCES Tecnicos(codigo_tecnico)
 );
+
