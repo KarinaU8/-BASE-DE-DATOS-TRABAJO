@@ -54,3 +54,4 @@ INSERT INTO Mantenimientos VALUES
 (14, 14, 6, 'Preventivo', 'Revisión eléctrica', '2025-10-25', 'Pendiente'),
 (15, 15, 8, 'Correctivo', 'Revisión computadora de abordo', '2025-10-28', 'Pendiente');
 
+
