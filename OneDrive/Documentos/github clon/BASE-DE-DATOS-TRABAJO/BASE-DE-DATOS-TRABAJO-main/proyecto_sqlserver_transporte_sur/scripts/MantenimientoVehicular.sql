@@ -170,3 +170,4 @@ SELECT codigo_mantenimiento, tipo_mantenimiento,
 FROM Mantenimientos;
 
 
+
