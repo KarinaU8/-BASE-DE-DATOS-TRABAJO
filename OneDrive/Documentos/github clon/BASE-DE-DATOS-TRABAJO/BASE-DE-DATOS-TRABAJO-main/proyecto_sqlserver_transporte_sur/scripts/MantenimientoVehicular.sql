@@ -169,3 +169,4 @@ SELECT codigo_mantenimiento, tipo_mantenimiento,
     END AS detalle_estado
 FROM Mantenimientos;
 
+
