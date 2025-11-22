@@ -41,3 +41,4 @@ CREATE TABLE Mantenimientos (
     FOREIGN KEY (codigo_tecnico) REFERENCES Tecnicos(codigo_tecnico)
 );
 
+
